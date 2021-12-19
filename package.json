@@ -16,13 +16,16 @@
     "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
     "redux": "^4.1.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "homepage": "https://andyvo190998.github.io/portfolio/"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
