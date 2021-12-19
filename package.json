@@ -2,6 +2,7 @@
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andyvo190998.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -16,8 +17,7 @@
     "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
     "redux": "^4.1.2",
-    "web-vitals": "^1.1.2",
-    "homepage": "https://andyvo190998.github.io/portfolio"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
