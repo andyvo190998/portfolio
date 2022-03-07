@@ -50,28 +50,28 @@ const Contact = () => {
     }
 
     return (
-        <div className="c">
+        <div id="contact" className="c">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
                     <h1 className="c-title">
-                        Lorem ipsum dolor sit.
+                        Contact
                     </h1>
                     <div className="c-infor">
                         <div className="c-infor-item">
-                            <LocalPhoneIcon className="c-icon" /> +49 1231231231
+                            <LocalPhoneIcon className="c-icon" /> +49 1575 0625 876
                         </div>
                         <div className="c-infor-item">
-                            <EmailIcon className="c-icon" /> andy.vo.98vn@gmail.com
+                            <EmailIcon className="c-icon" /> bao.vo.hoang@uni-a.de
                         </div><div className="c-infor-item">
-                            <HomeIcon className="c-icon" /> Franzensbad 4 Augsburg 86199 Germany
+                            <HomeIcon className="c-icon" /> Franzensbad 4, Augsburg, Germany, 86199.
                         </div>
                     </div>
                 </div>
                 <div className="c-right">
-                    <p className="c-desc">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia rerum optio placeat vel, velit commodi laudantium aliquid qui quod at!
-                    </p>
+                    {/* <p className="c-desc">
+                        Write me an email
+                    </p> */}
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input style={{ backgroundColor: mode && "#333", color: mode && 'white' }} onChange={handleOnchange} value={text.user_name} type="text" placeholder="Name" name="user_name" />
                         <input style={{ backgroundColor: mode && "#333", color: mode && 'white' }} onChange={handleOnchange} value={text.user_subject} type="text" placeholder="Subject" name="user_subject" />

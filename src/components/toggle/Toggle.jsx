@@ -13,7 +13,7 @@ const Toggle = () => {
     }
     return (
         <div onClick={handleClick} className="t">
-            <DarkMode color="secondary"/>
+            <DarkMode  color="secondary"/>
             <LightModeIcon color="warning" />
             <div className="t-button" style={{ left: mode && "25px" }} onClick={handleClick}></div>
         </div>

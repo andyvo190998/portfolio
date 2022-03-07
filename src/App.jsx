@@ -5,6 +5,7 @@ import ProductList from './components/productList/ProductList'
 import Contact from './components/contact/Contact'
 import Toggle from './components/toggle/Toggle'
 import { useSelector } from 'react-redux'
+import Nav from './components/navbar/Nav'
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
   console.log(mode);
   return (
       <div style={{backgroundColor: mode ? "#222" : 'white', color: mode && "white"}}>
+        {/* <Nav /> */}
         <Intro />
         <About />
         <ProductList />

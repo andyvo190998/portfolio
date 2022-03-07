@@ -1,32 +1,37 @@
+import calculator from "./img/calculator.png";
+import chatapp from "./img/chatapp.png"
+import callapi from "./img/callapi.png"
+import todolist from "./img/todolist.png"
+import ecommerce from "./img/ecommece.png"
 export const products = [
     {
         id: 1,
-        img:'https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        img: todolist,
+        link: "https://andyvo190998.github.io/React-Todo-List-Functional-Component/",
     },
     {
         id: 2,
-        img:'https://images.pexels.com/photos/10401494/pexels-photo-10401494.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        img: callapi,
+        link: "https://andyvo190998.github.io/Call-API-App/"
     },
     {
         id: 3,
-        img:'https://images.pexels.com/photos/10438631/pexels-photo-10438631.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        img:calculator,
+        link: "https://andyvo190998.github.io/Calculator/"
     },
     {
         id: 4,
-        img:'https://images.pexels.com/photos/9166695/pexels-photo-9166695.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        img: chatapp,
+        link: "https://andyvo190998.github.io/React-chat-app/"
     },
     {
         id: 5,
-        img:'https://images.pexels.com/photos/10003545/pexels-photo-10003545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        img:ecommerce,
+        link: "https://github.com/andyvo190998/ecommerce"
     },
     {
         id: 6,
         img:'https://images.pexels.com/photos/10003545/pexels-photo-10003545.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-        link: "http://google.com"
+        link: "https://github.com/andyvo190998?tab=repositories"
     }
 ]

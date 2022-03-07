@@ -2,15 +2,20 @@ import React from 'react';
 import './productList.css';
 import Product from '../product/Product';
 import { products } from '../../data';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { Button } from '@mui/material';
 
 const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Lorem ipsum dolor sit.</h1>
+                <h1 className="pl-title">My Projects</h1>
                 <p className="pl-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia nihil facilis nemo doloribus deleniti natus excepturi veniam optio quidem!
+                    Please go to my github page to see more detail
                 </p>
+                <Button  variant="contained" target="_blank" href="https://github.com/andyvo190998?tab=repositories">
+                    My Github Repository
+                </Button>
             </div>
             <div className="pl-list">
                 {products.map((item) => {
